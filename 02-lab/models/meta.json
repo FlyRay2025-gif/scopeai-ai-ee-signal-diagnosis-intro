@@ -1,0 +1,207 @@
+{
+  "mode_A": {
+    "features": [
+      "vmean",
+      "vpp_v",
+      "rms_v",
+      "crest",
+      "duty",
+      "freq_hz",
+      "rise_ms",
+      "flatness",
+      "spread_rel",
+      "zcr_per_cycle",
+      "jitter_rel"
+    ],
+    "classes": [
+      "R_too_high",
+      "R_too_low",
+      "cap_missing",
+      "no_oscillation",
+      "nominal"
+    ],
+    "nominal_range": {
+      "vmean": [
+        2.598,
+        2.925
+      ],
+      "vpp_v": [
+        4.51,
+        4.853
+      ],
+      "rms_v": [
+        2.23,
+        2.405
+      ],
+      "crest": [
+        1.09,
+        1.11
+      ],
+      "duty": [
+        0.533,
+        0.55
+      ],
+      "freq_hz": [
+        2.5,
+        2.999
+      ],
+      "rise_ms": [
+        0.1,
+        0.1
+      ],
+      "flatness": [
+        0.001,
+        0.001
+      ],
+      "spread_rel": [
+        2.12,
+        3.38
+      ],
+      "zcr_per_cycle": [
+        0.99,
+        1.02
+      ],
+      "jitter_rel": [
+        0.0,
+        0.0
+      ]
+    },
+    "n_samples": 240
+  },
+  "mode_B": {
+    "features": [
+      "vmean",
+      "vpp_v",
+      "rms_v",
+      "crest",
+      "duty",
+      "freq_hz",
+      "rise_ms",
+      "flatness",
+      "spread_rel",
+      "zcr_per_cycle",
+      "jitter_rel"
+    ],
+    "classes": [
+      "R_too_high",
+      "R_too_low",
+      "cap_missing",
+      "nominal"
+    ],
+    "nominal_range": {
+      "vmean": [
+        2.442,
+        2.665
+      ],
+      "vpp_v": [
+        4.65,
+        5.0
+      ],
+      "rms_v": [
+        2.26,
+        2.455
+      ],
+      "crest": [
+        1.02,
+        1.05
+      ],
+      "duty": [
+        0.499,
+        0.5
+      ],
+      "freq_hz": [
+        1.0,
+        1.0
+      ],
+      "rise_ms": [
+        21.135,
+        25.1
+      ],
+      "flatness": [
+        0.001,
+        0.001
+      ],
+      "spread_rel": [
+        1.92,
+        2.0
+      ],
+      "zcr_per_cycle": [
+        1.0,
+        1.33
+      ],
+      "jitter_rel": [
+        0.0,
+        0.0
+      ]
+    },
+    "n_samples": 192
+  },
+  "mode_C": {
+    "features": [
+      "vmean",
+      "vpp_v",
+      "rms_v",
+      "crest",
+      "duty",
+      "freq_hz",
+      "rise_ms",
+      "flatness",
+      "spread_rel",
+      "zcr_per_cycle",
+      "jitter_rel"
+    ],
+    "classes": [
+      "chatter",
+      "clipping",
+      "no_oscillation",
+      "nominal"
+    ],
+    "nominal_range": {
+      "vmean": [
+        2.337,
+        2.947
+      ],
+      "vpp_v": [
+        3.258,
+        3.966
+      ],
+      "rms_v": [
+        1.621,
+        1.942
+      ],
+      "crest": [
+        1.01,
+        1.07
+      ],
+      "duty": [
+        0.49,
+        0.523
+      ],
+      "freq_hz": [
+        5.0,
+        5.0
+      ],
+      "rise_ms": [
+        0.1,
+        0.1
+      ],
+      "flatness": [
+        0.001,
+        0.001
+      ],
+      "spread_rel": [
+        2.41,
+        3.19
+      ],
+      "zcr_per_cycle": [
+        1.0,
+        1.0
+      ],
+      "jitter_rel": [
+        0.0,
+        0.0
+      ]
+    },
+    "n_samples": 192
+  }
+}

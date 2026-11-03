@@ -1,0 +1,17 @@
+# 原项目副本，不提交（上游没有 LICENSE，不能转发）
+01-readings/
+
+# 个人汇报材料与工作日志，不提交
+03-output/
+PROGRESS.md
+
+# Python
+__pycache__/
+*.pyc
+
+# 训练产物（可用 02-lab/step3-models/train.py 重新生成）
+02-lab/models/*.joblib
+
+# 系统文件
+.DS_Store
+Thumbs.db
